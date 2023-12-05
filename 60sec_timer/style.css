@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Heebo', sans-serif;
+  color: green;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+}
+
+.circle-container {
+  width: 260px;
+  height: 260px;
+  background-color: #ddd;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+}
+.circle {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: right center;
+  background-color: blueviolet;
+}
+.circle:nth-child(3) {
+  background-color: #ddd;
+}
+.outermost-circle {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+  font-size: xx-large;
+}
+
+.Subheading {
+  text-align: center;
+  font-size: large;
+}
+.timer-container {
+  z-index: 1;
+}
+
+.timer div {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 10px;
+}
+
+.timer .colon {
+  background-color: transparent;
+  width: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 15px;
+}
+.add-time-btn {
+  /*display: left;*/
+  margin-left: 490px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 4px solid green;
+  background-color: skyblue;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.add-skip-btn {
+  /*display: right;*/
+  margin-left: 40px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 4px solid green;
+  background-color: skyblue;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+  .clear-btn {
+    /*display: right;*/
+    margin-top: 20px;
+    margin-left: 490px;
+    font-size: 20px;
+    padding: 10px 42px;
+    border-radius: 10px;
+    border: 4px solid green;
+    background-color: skyblue;
+    color: blueviolet;
+    cursor: pointer;
+  }
+  .restart-btn {
+    /*display: right;*/
+    margin-left: 42px;
+    font-size: 20px;
+    padding: 10px 27px;
+    border-radius: 10px;
+    border: 4px solid green;
+    background-color: skyblue;
+    color: blueviolet;
+    cursor: pointer;
+  }

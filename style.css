@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Heebo', sans-serif;
+  color: green;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  vertical-align: auto;
+  align-items: center;
+}
+.main-container {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+}
+.mt-32px {
+    margin-top: 32px;
+}
+
+
+
+.add-time-btn {
+  /*display: left;*/
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 4px solid green;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+
